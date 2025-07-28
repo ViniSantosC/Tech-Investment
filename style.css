@@ -1,0 +1,16 @@
+#cabecalho {
+    background-color: navy;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.destaque {
+    color: red;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
