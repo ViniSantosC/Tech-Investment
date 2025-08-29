@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+        Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+    line-height: 1.6;
+}
+header {
+    background-color: #ffffff;
+    padding: 1rem 2rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+.logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #2821b8;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+nav a {
+    text-decoration: none;
+    color: #555;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+nav a:hover {
+    color: #2821b8;
+}
+main {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.hero {
+    text-align: center;
+    padding: 4rem 1rem;
+    background-color: #ffffff;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+}
+.hero h1 {
+    font-size: 2.8rem;
+    margin-bottom: 1rem;
+    color: #222;
+}
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    color: #666;
+}
+.btn {
+    display: inline-block;
+    background-color: #2821b8;
+    color: #ffffff;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+.btn:hover {
+    background-color: #2821b8;
+    transform: translateY(-2px);
+}
+footer {
+    text-align: center;
+    padding: 1.5rem;
+    margin-top: 2rem;
+    background-color: #333;
+    color: #fff;
+}
+.cta-button {
+    background-color: #2821b8;
+    color: #fff;
+    border: none;
+    padding: 12px 32px;
+    border-radius: 8px;
+    font-size: 1.1em;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: background 0.3s;
+}
+input:focus {
+    border-color: #2821b8;
+    box-shadow: 0 4px 16px rgba(44, 44, 84, 0.12);
+    outline: none;
+    background: #eef0ff;
+}
+.botao-cadastrar:hover {
+    background-color: #211a5c;
+}
+.sair-btn {
+    background-color: #2821b8;
+    color: #fff;
+    border: none;
+    padding: 12px 32px;
+    border-radius: 8px;
+    font-size: 0.7em;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: background 0.3s;
+}
+input:focus {
+    border-color: #2821b8;
+    box-shadow: 0 4px 16px rgba(44, 44, 84, 0.12);
+    outline: none;
+    background: #eef0ff;
+}
+.botao-cadastrar:hover {
+    background-color: #211a5c;
+}
+#pq {
+    text-align: center;
+}
+a {
+    color: white;
+}
